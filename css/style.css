@@ -1,0 +1,220 @@
+h1 {
+  float: right;
+  font-weight: 600;
+  background-color: #fff;
+}
+
+nav {
+  background-color: #d2cbcb;
+  display: inline-block;
+  width: 100%;
+  height: 60px;
+}
+
+nav ul {
+  list-style-type: none;
+  
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+  float: left;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+ color: white;
+  background-color: #131212;
+}
+
+
+.logo img {
+  width: 50%;
+}
+
+.head .logo {
+  background-color: #fff;
+  float: left;
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  .col-s-1 {
+    width: 8.33%;
+  }
+
+  .col-s-2 {
+    width: 16.66%;
+  }
+
+  .col-s-3 {
+    width: 25%;
+  }
+
+  .col-s-4 {
+    width: 33.33%;
+  }
+
+  .col-s-5 {
+    width: 41.66%;
+  }
+
+  .col-s-6 {
+    width: 50%;
+  }
+
+  .col-s-7 {
+    width: 58.33%;
+  }
+
+  .col-s-8 {
+    width: 66.66%;
+  }
+
+  .col-s-9 {
+    width: 75%;
+  }
+
+  .col-s-10 {
+    width: 83.33%;
+  }
+
+  .col-s-11 {
+    width: 91.66%;
+  }
+
+  .col-s-12 {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .col-1 {
+    width: 8.33%;
+  }
+
+  .col-2 {
+    width: 16.66%;
+  }
+
+  .col-3 {
+    width: 25%;
+  }
+
+  .col-4 {
+    width: 33.33%;
+  }
+
+  .col-5 {
+    width: 41.66%;
+  }
+
+  .col-6 {
+    width: 50%;
+  }
+
+  .col-7 {
+    width: 58.33%;
+  }
+
+  .col-8 {
+    width: 66.66%;
+  }
+
+  .col-9 {
+    width: 75%;
+  }
+
+  .col-10 {
+    width: 83.33%;
+  }
+
+  .col-11 {
+    width: 91.66%;
+  }
+
+  .col-12 {
+    width: 100%;
+  }
+}
+
+.wrapper {
+  width: 90%;
+  background-color: #a3a2a2;
+  margin: 0 auto;
+  padding: 10px; /* Thêm padding để tạo khoảng cách với nội dung */
+}
+
+.nav-row {
+  display: flex; /* Sử dụng flexbox */
+  flex-wrap: wrap; /* Cho phép các phần tử chồng lên nhau khi không đủ không gian */
+}
+
+@media (max-width: 800px) {
+  .nav-row {
+    flex-direction: column;
+  }
+}
+
+.main {
+  width: 100%;
+  background-color: #565454;
+  overflow: auto;
+}
+
+.hotnews {
+  width: 100%;
+}
+
+.imgnews {
+  float: left;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.imgnews img {
+  width: 100%;
+}
+
+.textnews {
+  float: left;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.title {
+  line-height: 30px;
+  background-image: linear-gradient(to bottom, #FCD917, #FBEA9D);
+}
+
+.content {
+  color: white;
+  background-image: linear-gradient(to bottom right, #989797, #383838);
+}
+
+.news {
+  clear: both;
+}
+
+.item {
+  float:left;
+  box-sizing: border-box;
+  padding: 5px 5px;
+}
+
+.item img {
+  width: 100%;
+}
+
+.frmcomment {
+  margin-top: 10px;
+  color: white;
+}
